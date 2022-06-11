@@ -1,17 +1,16 @@
 body {
   margin: 0;
-  background-color: #f8f1f9;
   font-family: "Roboto", sans-serif;
-  font-size: xx-large;
 }
 
 .presentation {
-  margin-top: 2%;
   display: flex;
   justify-content: center;
+  font-size: xx-large;
 }
 
-.presentation div h1 {
+.presentation div h1,
+.presentation div p {
   display: flex;
   justify-content: center;
 }
@@ -19,6 +18,7 @@ body {
 .social-media {
   display: flex;
   justify-content: center;
+  margin-bottom: 2%;
 }
 
 .social-media a {
@@ -27,4 +27,30 @@ body {
 
 .social-media img {
   width: 110%;
+}
+
+hr {
+  margin: 0;
+}
+
+.trajectory {
+  background-color: #f8f1f9;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+}
+
+.resume p {
+  background-color: #ffffff;
+  text-align: justify;
+  text-indent: 1em;
+  text-justify: inter-word;
+  font-size: x-large;
+  width: 40%;
+  margin: 2%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  padding: 2%;
 }
