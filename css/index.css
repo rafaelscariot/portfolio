@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: #f8f1f9;
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+}
+
+.presentation {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.presentation div h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.social-media a {
+  margin: 10px;
+}
+
+.social-media img {
+  width: 110%;
+}
